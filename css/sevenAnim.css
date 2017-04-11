@@ -1,0 +1,11 @@
+.line{
+    animation: lineAni 5s forwards;
+}
+@keyframes lineAni{
+	from {
+		height: 0%;
+	}
+	to{
+		height: 68%;
+	}
+}

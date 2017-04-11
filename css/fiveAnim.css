@@ -1,0 +1,133 @@
+.tap{
+	position: absolute;
+    left: 4%;
+    bottom: 24%;
+    width: 33%;
+    opacity: 0;
+	animation: star 1s linear 3s infinite alternate;
+}
+.fivePicture>div:nth-of-type(10)>img{
+	animation: fiveImgAni 0.5s linear 0.5s forwards;
+}
+.fivePicture>div:nth-of-type(9)>img{
+	animation: fiveImgAni 0.5s linear 0.8s forwards;
+}
+.fivePicture>div:nth-of-type(8)>img{
+	animation: fiveImgAni 0.5s linear 1s forwards;
+}
+.fivePicture>div:nth-of-type(7)>img{
+	animation: fiveImgAni 0.5s linear 1.3s forwards;
+}
+.fivePicture>div:nth-of-type(6)>img{
+	animation: fiveImgAni 0.5s linear 1.5s forwards;
+}
+.fivePicture>div:nth-of-type(5)>img{
+	animation: fiveImgAni 0.5s linear 1.8s forwards;
+}
+.fivePicture>div:nth-of-type(4)>img{
+	animation: fiveImgAni 0.5s linear 2s forwards;
+}
+.fivePicture>div:nth-of-type(3)>img{
+	animation: fiveImgAni 0.5s linear 2.3s forwards;
+}
+.fivePicture>div:nth-of-type(2)>img{
+	animation: fiveImgAni 0.5s linear 2.5s forwards;
+}
+.fivePicture>div:nth-of-type(1)>img{
+	animation: fiveImgAni 0.5s linear 2.8s forwards;
+}
+@keyframes fiveImgAni{
+	from {
+		width: 58%;
+		height: 72%;
+	    left: 42%;
+	    top: 26%;
+	}
+	to{
+		width: 66%;
+		height: 82%;
+	    left: 19%;
+	    top: 0%;
+	}
+}
+.fivePicture>div:nth-child(10) .fivePicMask{
+	animation: fiveMaskAni 0.5s linear forwards;
+}
+.fivePicture>div:nth-child(9) .fivePicMask{
+	animation: fiveMaskAni 0.5s 0.3s linear forwards;
+}
+.fivePicture>div:nth-child(8) .fivePicMask{
+	animation: fiveMaskAni 0.5s 0.5s linear forwards;
+}
+.fivePicture>div:nth-child(7) .fivePicMask{
+	animation: fiveMaskAni 0.5s 0.8s linear forwards;
+}
+.fivePicture>div:nth-child(6) .fivePicMask{
+	animation: fiveMaskAni 0.5s 1s linear forwards;
+}
+.fivePicture>div:nth-child(5) .fivePicMask{
+	animation: fiveMaskAni 0.5s 1.3s linear forwards;
+}
+.fivePicture>div:nth-child(4) .fivePicMask{
+	animation: fiveMaskAni 0.5s 1.5s linear forwards;
+}
+.fivePicture>div:nth-child(3) .fivePicMask{
+	animation: fiveMaskAni 0.5s 1.8s linear forwards;
+}
+.fivePicture>div:nth-child(2) .fivePicMask{
+	animation: fiveMaskAni 0.5s 2s linear forwards;
+}
+.fivePicture>div:nth-child(1) .fivePicMask{
+	animation: fiveMaskAni 0.5s 2.3s linear forwards;
+}
+@keyframes fiveMaskAni{
+	0%{
+	    top: 23%;
+	    opacity: 1;
+	}
+	99%{
+		top: 200%;
+		opacity: 1;    
+	}
+	100%{
+		opacity: 0;
+	}
+}
+.fivePicture>div:nth-child(10) .fivePicBg{
+	animation: fiveBgAni 1s linear 0.5s forwards;
+}
+.fivePicture>div:nth-child(9) .fivePicBg{
+	animation: fiveBgAni 1s linear 0.8s forwards;
+}
+.fivePicture>div:nth-child(8) .fivePicBg{
+	animation: fiveBgAni 1s linear 1s forwards;
+}
+.fivePicture>div:nth-child(7) .fivePicBg{
+	animation: fiveBgAni 1s linear 1.3s forwards;
+}
+.fivePicture>div:nth-child(6) .fivePicBg{
+	animation: fiveBgAni 1s linear 1.5s forwards;
+}
+.fivePicture>div:nth-child(5) .fivePicBg{
+	animation: fiveBgAni 1s linear 1.8s forwards;
+}
+.fivePicture>div:nth-child(4) .fivePicBg{
+	animation: fiveBgAni 1s linear 2s forwards;
+}
+.fivePicture>div:nth-child(3) .fivePicBg{
+	animation: fiveBgAni 1s linear 2.3s forwards;
+}
+.fivePicture>div:nth-child(2) .fivePicBg{
+	animation: fiveBgAni 1s linear 2.5s forwards;
+}
+.fivePicture>div:nth-child(1) .fivePicBg{
+	animation: fiveBgAni 1s linear 2.8s forwards;
+}
+@keyframes fiveBgAni{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
