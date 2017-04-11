@@ -24,7 +24,7 @@ for (var i = 0; i < imgs.length; i++) {
 		$loadingH2.text(percent + "%");
 		
 		//判断是否已经加载所有的图片
-		if(percent>=100){
+		if(num == imgs.length){
 			$loading.hide();
 			$swiperWrap.show();
 			// 初始化 Swiper
