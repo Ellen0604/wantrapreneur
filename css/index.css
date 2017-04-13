@@ -214,7 +214,7 @@ html,body,#loading,.swiper-container{
 		transform: translate3d(0,0,0);
 	}
 	to{
-		transform: translate3d(0,0,-100px);
+		transform: translate3d(0,0,100px);
 	}
 }
 #threeCon>img:nth-of-type(2){
@@ -229,7 +229,7 @@ html,body,#loading,.swiper-container{
 		transform: translate3d(-15px,0,0);
 	}
 	to{
-		transform: translate3d(25px,-25px,-25px) rotate(5deg);
+		transform: translate3d(25px,-25px,25px) rotate(5deg);
 	}
 }
 #threeCon>img:nth-of-type(3){
@@ -259,7 +259,7 @@ html,body,#loading,.swiper-container{
 		transform: translate3d(0px,0px,0px) rotateZ(-10deg);
 	}
 	to{
-		transform: translate3d(60px,-60px,-150px) rotate(20deg);
+		transform: translate3d(60px,-60px,150px) rotate(20deg);
 	}
 }
 #threeCon>img:nth-of-type(5){
@@ -280,7 +280,7 @@ html,body,#loading,.swiper-container{
 		transform: translate3d(0px,0px,0px);
 	}
 	80%{
-		transform: translate3d(30px,30px,-50px) rotate(5deg);
+		transform: translate3d(30px,30px,50px) rotate(5deg);
 	}
 	100%{
 		transform: translate3d(0px,0px,0px);
