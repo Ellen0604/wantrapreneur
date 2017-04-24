@@ -75,18 +75,18 @@ $musicBtn.on("touchstart",function(){
 	}
 })
 
-// --------------第二页-------------
-// 地球
-var $earth = $("#earth");
-// 切换第几张图片
-var i = 1;
-setInterval(function(){
-	i++;
-	if (i>47) {
-		i=1;
-	}
-	$earth.prop("src","images/pagetwo/diqiu/"+i+".jpg");
-},50)
+// // --------------第二页-------------
+// // 地球
+// var $earth = $("#earth");
+// // 切换第几张图片
+// var i = 1;
+// setInterval(function(){
+// 	i++;
+// 	if (i>47) {
+// 		i=1;
+// 	}
+// 	$earth.prop("src","images/pagetwo/diqiu/"+i+".jpg");
+// },50)
 
 // ---------------第四页-----------
 
